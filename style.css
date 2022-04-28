@@ -1,0 +1,694 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 14px;
+}
+.Template {
+    width: 100%;
+    height: 100%;
+    background: rgba(245, 245, 251, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+  .T1_Content {
+    width: 1275px;
+    height: calc(100% - 56px);
+    background: rgba(245,245,251,1);
+    margin:0;
+    padding:0;
+    position: absolute;
+    bottom: 56px;
+    left: 261px;
+    box-sizing: border-box;
+    border: 3px solid #6868ac;
+    overflow: auto;
+  }
+  .T1_Content::-webkit-scrollbar {
+    display: none;
+  }
+  .T1_2_Experiment {
+    width: 100%;
+    height: 70px;
+    margin:0;
+    background: #ff0000;
+  }
+  .T1_3_GIF {
+    width: 100%;
+    height: 70px;
+    background: #ffff00;
+  }
+
+  .T2_MenuBar {
+    width: 261px;
+    height: 100%;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+
+    .T2_1_Header {
+      width: 159px;
+      height: 43px;
+      position: absolute;
+      top: 41px;
+      left: 51px;
+      overflow: hidden;
+    }
+      .T2_1_1_PageName {
+        width: 104px;
+        color: rgba(104,104,172,1);
+        position: absolute;
+        top: 8px;
+        left: 55px;
+        font-family: 'Inter';
+        font-weight: 800;
+        font-size: 22px;
+        opacity: 1;
+        text-align: left;
+      }
+      .T2_1_2_Square {
+        width: 43px;
+        height: 43px;
+        background: rgba(104,104,172,1);
+        opacity: 1;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        overflow: hidden;
+      }
+      .T2_1_3_Logo {
+        width: 37px;
+        height: 37px;
+        background: url("./images/Logo.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        overflow: hidden;
+      }
+
+    .T2_2_Button {
+      width: 161px;
+      height: 48px;
+      opacity: 1;
+      position: absolute;
+      top: 106px;
+      left: 48px;
+      overflow: hidden;
+    }
+    .T2_2_1_Nut {
+      width: 160px;
+      height: 48px;
+      background: rgba(104,104,172,1);
+      opacity: 1;
+      position: relative;
+      top: 0px;
+      left: 0px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      overflow: hidden;
+    }
+    .T2_2_2_ButtonName {
+      width: 160px;
+      color: rgba(255,255,255,1);
+      position: absolute;
+      top: 18px;
+      left: 0px;
+      font-family: 'Inter';
+      font-weight: 600;
+      font-size: 16px;
+      opacity: 1;
+      text-align: center;
+    }
+
+    .T2_3_Menu {
+      width: 142px;
+      height: 250px;
+      position: absolute;
+      top: 28.7vh;
+      left: 59px;
+      overflow: hidden;
+    }
+      /*Dashboard*/
+      .T2_3_1_Dashboard {
+        width: 129px;
+        height: 20px;
+        background: url("./images/v405_605.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 0px;
+        left: 1px;
+        overflow: hidden;
+      }
+      .T2_3_1_1_DashName {
+        width: 85px;
+        color: rgba(141,161,181,1);
+        position: absolute;
+        top: 0px;
+        left: 44px;
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 16px;
+        opacity: 1;
+        text-align: left;
+      }
+      .T2_3_1_2_DashboardIcon {
+        width: 20px;
+        height: 20px;
+        background: url("./images/LogoDashboard.svg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        overflow: hidden;
+      }
+      /*Khóa Học*/
+      .T2_3_2_Khoahoc {
+        width: 142px;
+        height: 20px;
+        background: url("./images/v405_604.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 58px;
+        left: 0px;
+        overflow: hidden;
+      }
+      .T2_3_2_1_KhoahocName {
+        width: 97px;
+        color: rgba(39,40,41,1);
+        position: absolute;
+        top: 2px;
+        left: 45px;
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 16px;
+        opacity: 1;
+        text-align: left;
+      }
+      .T2_3_2_2_KhoahocIcon {
+        width: 20px;
+        height: 20px;
+        background: url("./images/LogoKhoahoc Select.svg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        overflow: hidden;
+      }
+      /*Phòng Lab*/
+      .T2_3_3_Phonglab {
+        width: 127px;
+        height: 24px;
+        position: absolute;
+        top: 116px;
+        left: 0px;
+        overflow: hidden;
+      }
+      .T2_3_3_1_LabName {
+        width: 82px;
+        color: rgba(140,161,180,1);
+        position: absolute;
+        top: 3px;
+        left: 45px;
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 16px;
+        opacity: 1;
+        text-align: left;
+      }
+      .T2_3_3_2_LabIcon {
+        width: 22px;
+        height: 22px;
+        background: url("./images/LogoPhongLab.svg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        opacity: 1;
+        position: relative;
+        top: 0px;
+        left: 0px;
+      }
+      /*Hồ Sơ*/
+      .T2_3_4_Hoso {
+        width: 126px;
+        height: 22px;
+        position: absolute;
+        top: 172px;
+        left: 1px;
+        overflow: hidden;
+      }
+      .T2_3_4_1_HosoName {
+        width: 82px;
+        color: rgba(140,161,180,1);
+        position: absolute;
+        top: 3px;
+        left: 44px;
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 16px;
+        opacity: 1;
+        text-align: left;
+      }
+      .T2_3_4_2_HosoIcon {
+        width: 22px;
+        height: 22px;
+        background: url("./images/LogoHoso.svg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        overflow: hidden;
+      }
+
+    .T2_4_Profile {
+      width: 192px;
+      height: 231px;
+      background: url("./images/v404_701.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: fixed;
+      bottom: 32px;
+      left: 34px;
+      overflow: hidden;
+    }
+      /*Hồ Sơ*/
+      .T2_4_1_Khung {
+        width: 192px;
+        height: 188px;
+        background: rgba(245,245,251,1);
+        opacity: 1;
+        position: absolute;
+        top: 43px;
+        left: 0px;
+        border: 2px solid rgba(0,0,0,1);
+        border-radius: 15px;
+        overflow: hidden;
+      }
+      /*Avatar*/
+      .T2_4_2_Avatar {
+        width: 87px;
+        height: 87px;
+        background: rgba(255,255,255,1);
+        opacity: 1;
+        position: absolute;
+        top: 0px;
+        left: 54px;
+        border-radius: 50%;
+        border: 3px solid rgba(104,104,172,1);
+      }
+      .Avatar {
+        width: 100%;
+        height: 100%;
+      }
+      /*Tên*/
+      .T2_4_3_Username {
+        width: 150px;
+        color: rgba(141,161,181,1);
+        position: absolute;
+        top: 95px;
+        left: 21px;
+        font-family: 'Inter';
+        font-weight: Bold;
+        font-size: 18px;
+        opacity: 1;
+        text-align: center;
+      }
+      /*Exp và Level*/
+      .T2_4_4_Exp {
+        width: 137px;
+        height: 35px;
+        background: url("./images/v404_723.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 127px;
+        left: 28px;
+        overflow: hidden;
+      }
+        .Lv {
+          width: 23px;
+          color: rgba(141,161,181,1);
+          position: absolute;
+          top: 12px;
+          left: 0px;
+          font-family: 'Inter';
+          font-weight: 500;
+          font-size: 14px;
+          opacity: 1;
+          text-align: center;
+        }
+        .level {
+          width: 23px;
+          color: rgba(141,161,181,1);
+          position: absolute;
+          top: 12px;
+          left: 23px;
+          font-family: 'Inter';
+          font-weight: Bold;
+          font-size: 14px;
+          opacity: 1;
+          text-align: center;
+        }
+        .expUp {
+          width: 35px;
+          color: rgba(141,161,181,1);
+          position: absolute;
+          top: 12px;
+          left: 102px;
+          font-family: 'Inter';
+          font-weight: 700;
+          font-size: 14px;
+          opacity: 1;
+          text-align: center;
+        }
+        .exp {
+          width: 30px;
+          color: rgba(141,161,181,1);
+          position: absolute;
+          top: 12px;
+          left: 72px;
+          font-family: 'Inter';
+          font-weight: 500;
+          font-size: 14px;
+          opacity: 1;
+          text-align: center;
+        }
+        .expUpBar {
+          width: 137px;
+          height: 10px;
+          background: rgba(255,255,255,1);
+          opacity: 1;
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          border: 2px solid rgba(0,0,0,1);
+          border-top-left-radius: 25px;
+          border-top-right-radius: 25px;
+          border-bottom-left-radius: 25px;
+          border-bottom-right-radius: 25px;
+          overflow: hidden;
+        }
+        .expBar {
+          width: calc(134px * 350/500);
+          height: 7px;
+          background: rgba(104,104,172,1);
+          opacity: 1;
+          position: absolute;
+          top: 1.5px;
+          left: 2px;
+          border-top-left-radius: 25px;
+          border-top-right-radius: 25px;
+          border-bottom-left-radius: 25px;
+          border-bottom-right-radius: 25px;
+          overflow: hidden;
+        }
+      /*Coin*/
+      .T2_4_5_Coin {
+        width: 69px;
+        height: 50px;
+        background: url("./images/v404_719.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 164px;
+        left: 21px;
+        overflow: hidden;
+      }
+        .khungCoin {
+          width: 69px;
+          height: 50px;
+          background: rgba(255,255,255,1);
+          opacity: 1;
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          border: 1px solid rgba(0,0,0,1);
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          overflow: hidden;
+        }
+        .coin {
+          width: 27px;
+          color: rgba(141,161,181,1);
+          position: absolute;
+          top: 14px;
+          left: 38px;
+          font-family: Inter;
+          font-weight: Bold;
+          font-size: 18px;
+          opacity: 1;
+          text-align: center;
+        }
+        .coinIcon {
+          width: 42px;
+          height: 42px;
+          background: url("./images/v404_722.png");
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+          opacity: 1;
+          position: absolute;
+          top: 4px;
+          left: 0px;
+          overflow: hidden;
+        }
+      /*Thời gian học*/
+      .T2_4_6_Time {
+        width: 78px;
+        height: 50px;
+        background: url("./images/v404_728.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 164px;
+        left: 97px;
+        overflow: hidden;
+      }
+      .khungTime {
+        width: 78px;
+        height: 50px;
+        background: rgba(255,255,255,1);
+        opacity: 1;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        border: 1px solid rgba(0,0,0,1);
+        border-radius: 10px;
+        overflow: hidden;
+      }
+      .Time {
+        width: 44px;
+        color: rgba(141,161,181,1);
+        position: absolute;
+        top: 15px;
+        left: 34px;
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 14px;
+        opacity: 1;
+        text-align: left;
+      }
+      .clock {
+        width: 24px;
+        height: 24px;
+        background: url("./images/v404_731.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 13px;
+        left: 5px;
+        overflow: hidden;
+      }
+
+
+  .T3_ProgressBar {
+    width: 100%;
+    height: 56px;
+    position: fixed;
+    bottom: 0;
+    left: 261px;
+    overflow: hidden;
+  }
+
+    .T3_1_Revision {
+      width: 425px;
+      height: 56px;
+      background: rgba(255,255,255,1);
+      opacity: 1;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      overflow: hidden;
+    }
+      .title_Revision {
+        width: 151px;
+        color: rgba(104,104,172,1);
+        position: absolute;
+        top: 19px;
+        left: 164px;
+        font-family: 'Inter';
+        font-weight: Bold;
+        font-size: 18px;
+        opacity: 1;
+        text-align: center;
+      }
+      .RevisionCircle {
+        width: 44px;
+        height: 44px;
+        background: rgba(255,255,255,1);
+        opacity: 1;
+        position: absolute;
+        top: 6px;
+        left: 117px;
+        border: 2px solid #6868ac;
+        border-radius: 50%;
+      }
+      .RevisionIcon {
+        width: 25px;
+        height: 25px;
+        background: url("./images/Revision.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        opacity: 1;
+        position: absolute;
+        top: 16px;
+        left: 128px;
+        overflow: hidden;
+      }
+
+    .T3_2_Lesson {
+      width: 425px;
+      height: 56px;
+      background: rgba(104,104,172,1);
+      opacity: 1;
+      position: absolute;
+      top: 0px;
+      left: 425px;
+      overflow: hidden;
+    }
+      .title_Lesson {
+        width: 80px;
+        color: rgba(255,255,255,1);
+        position: absolute;
+        top: 19px;
+        left: 173px;
+        font-family: 'Inter';
+        font-weight: Bold;
+        font-size: 18px;
+        opacity: 1;
+        text-align: center;
+      }
+      .LessonCircle {
+        width: 44px;
+        height: 44px;
+        background: rgba(255,255,255,1);
+        opacity: 1;
+        position: absolute;
+        top: 6px;
+        left: 117px;
+        border: 2px solid;
+        border-radius: 50%;
+      }
+      .LessonIcon {
+        width: 26px;
+        height: 26px;
+        background: url("./images/Lesson.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        opacity: 1;
+        position: absolute;
+        top: 14px;
+        left: 126px;
+        overflow: hidden;
+      }
+
+    .T3_3_Quiz {
+      width: 425px;
+      height: 56px;
+      background: rgba(255,255,255,1);
+      opacity: 1;
+      position: absolute;
+      top: 0px;
+      left: 850px;
+      overflow: hidden;
+    }
+      .title_Quiz {
+        width: 92px;
+        color: rgba(104,104,172,1);
+        position: absolute;
+        top: 19px;
+        left: 167px;
+        font-family: 'Inter';
+        font-weight: Bold;
+        font-size: 18px;
+        opacity: 1;
+        text-align: center;
+      }
+      .QuizCircle {
+        width: 44px;
+        height: 44px;
+        background: rgba(255,255,255,1);
+        opacity: 1;
+        position: absolute;
+        top: 6px;
+        left: 117px;
+        border: 2px solid #6868ac;
+        border-radius: 50%;
+      }
+      .QuizIcon {
+        width: 28px;
+        height: 28px;
+        background: url("./images/Quiz.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        opacity: 1;
+        position: absolute;
+        top: 14px;
+        left: 125px;
+        overflow: hidden;
+      }
